@@ -12,9 +12,11 @@
 - **响应式设计**：适应各种设备和屏幕尺寸。
 - **可定制外观**：可以通过CSS进行样式定制。
 
-##Demo演示
+## Demo演示
 点击此处预览效果。
+
 [个人网站](https://sodebug.com/)
+
 [插件教程](https://sodebug.com/Linux/ArticleTOC.html)
 
 
