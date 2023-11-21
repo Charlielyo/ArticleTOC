@@ -1,0 +1,85 @@
+#article-toc {
+    padding: 10px 20px;
+    margin: 0;
+    border-left: 4px solid #2a4d69; /* 添加深蓝色左边框以增强视觉效果 */
+    text-align: left;
+    background-color: #eef2f7; /* 更新为更柔和的背景色 */
+    box-sizing: border-box;
+}
+
+#article-toc ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+#article-toc li {
+    margin-bottom: 5px;
+}
+
+/* 标题级别的左边距 */
+#article-toc .toc-level-1 { padding-left: 0; }
+#article-toc .toc-level-2 { padding-left: 15px; }
+#article-toc .toc-level-3 { padding-left: 30px; }
+#article-toc .toc-level-4 { padding-left: 45px; }
+#article-toc .toc-level-5 { padding-left: 60px; }
+#article-toc .toc-level-6 { padding-left: 75px; }
+
+#article-toc a {
+    text-decoration: none;
+    color: #5d647b; /* 暗灰蓝色，对比度适中，更易阅读 */
+}
+
+#article-toc a:hover {
+    text-decoration: underline;
+    color: #829ab1; /* 浅灰蓝色，悬停时的颜色 */
+}
+
+#toggle-toc {
+    padding: 5px 10px;
+    margin: 10px 0;
+    cursor: pointer;
+    background-color: #dfe3ea; /* 按钮背景色，与目录背景色相协调 */
+    border: 1px solid #bbb; /* 按钮边框颜色较浅 */
+    color: #2a4d69; /* 按钮文字颜色与链接颜色相同 */
+    display: block;
+}
+
+.article-toc-float-left {
+    position: fixed;
+    left: 20px;
+    top: 100px;
+}
+
+.article-toc-float-right {
+    position: fixed;
+    right: 20px;
+    top: 100px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Dark mode styles */
+@media (prefers-color-scheme: dark) {
+    #article-toc {
+        background-color: #eef2f7; /* Dark mode background color */
+        border-color: #6699CC; /* 较亮的蓝色边框颜色 */
+        color: #5d647b; /* 文字颜色 */
+    }
+
+    #article-toc a {
+        color: #5d647b; /* Dark mode link color */
+    }
+
+    #article-toc a:hover {
+        color: #829ab1; /* Dark mode link hover color */
+    }
+
+    #toggle-toc {
+        background-color: #eef2f7; /* Dark mode toggle button background color */
+        border-color: #6699CC; /* Dark mode toggle button border color */
+        color: #5d647b; /* Dark mode toggle button text color */
+    }
+}
