@@ -15,7 +15,7 @@
 ## Demo演示
 点击此处预览效果。
 
-[个人网站](https://sodebug.com/)
+[DEMO](https://sodebug.com/)
 
 [插件教程](https://sodebug.com/Linux/ArticleTOC.html)
 
