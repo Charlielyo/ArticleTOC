@@ -1,6 +1,8 @@
 # ArticleTOC for Typecho
 
 `ArticleTOC` 是一个为 Typecho 博客平台设计的插件，它可以自动生成文章的目录结构，帮助读者更容易地导航您的内容。它支持浅色和深色主题，确保无论用户偏好如何，都能提供流畅的阅读体验。
+![image](https://github.com/Charlielyo/ArticleTOC/assets/78399982/29a4f9de-a3f6-4c5c-8096-87c06895495f)
+![image](https://github.com/Charlielyo/ArticleTOC/assets/78399982/9b436839-a46e-42aa-b85d-dfd070a7cba3)
 
 ## 功能特性
 
